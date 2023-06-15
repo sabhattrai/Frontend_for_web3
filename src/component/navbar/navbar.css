@@ -1,0 +1,108 @@
+.Navbar {
+  display: flex;
+  padding: 1rem 2rem;
+  border-radius: 1px solid;
+  border: 1px solid;
+  background-color: beige;
+  box-shadow:3px 1px 5px rgb(139, 138, 138) ;
+}
+.search_icon{
+  width: 400px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  border: 2px solid;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+  background-color: #fff;
+}
+.Navbar_Links{
+  flex:1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.Logo{
+  display: flex;
+  gap:20px;
+}
+
+.search_icon >input{
+width: 350px;
+padding: 2px;
+height:30px;
+border: none;
+outline: none;
+font-size: 18px;
+}
+
+.Search{
+  padding-right: 10px;
+}
+
+.Search::placeholder{
+  font-size: large;
+}
+.With_Logo{
+  padding: 1rem;
+  border: 2px solid;
+  display: flex;
+  align-items: center;
+}
+.Search_logo{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.icon {
+  padding: 5px;
+  font-size: larger;
+  
+}
+.Navbar_containers ul{
+  margin-right: 2rem;
+  display: flex;
+  flex-direction: row;
+  gap:2rem;
+}
+
+.Navbar_containers ul a{
+  font-size: x-large;
+  font-weight: 300;
+}
+a:hover{
+  text-decoration: underline;
+  color:brown;
+}
+
+.buttons{
+  display: flex;
+  gap:2rem;
+}
+
+        
+ .connect {
+  background-image: linear-gradient(to right, #1A2980 0%, #26D0CE  51%, #1A2980  100%);
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  font-size: medium;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;            
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+ }
+
+.connect:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+         
